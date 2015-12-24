@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <title>Reaction Tester</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+    body{
+      font-family: Verdana, Geneva, sans-serif; 
+    }
+    #box{
+    	width: 100px;
+    	height: 100px;
+    	background-color: red;
+      display: none;
+      position: relative;
+    }
+
+    .bold{
+      font-weight: bold;
+    }
+
+</style>
+
+</head>
+
+<body>
+    <h1>Test your Reaction Time!</h1>
+    <p>Click on the squares and circles appearing on the screen as quick as you can</p>
+    <p class="bold">Your Time <span id="time">0</span>s</p>
+    <div id="box"></div>
+    <script src="reaction.js"> </script>
+</body>
+</html>
